@@ -5,3 +5,23 @@ body {
 input {
   margin: 5px;
 }
+
+div, label {
+  display:block;
+}
+
+input {
+  width: 80%;
+  max-width: 100%;  
+  /* may be useful if you base style overrides the user agent */
+  /* box-sizing: border-box; */
+  /* display: block; */
+}
+
+textarea {
+  width: 80%;
+  max-width: 100%;  
+  /* may be useful if you base style overrides the user agent */
+  /* box-sizing: border-box; */
+  /* display: block; */
+}
